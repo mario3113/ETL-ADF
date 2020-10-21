@@ -7,7 +7,7 @@ Login-AzureRmAccount
 
 #configurations - FILL OUT WITH DESIRED VALUES
 $dir = "D:\ADFflow1-Master\Deployment"      #Working directory of where your flow1Deploy.ps1 file is located
-$resourceGroupName = "adfflow1-test"        #Name of Azure resource group to deploy the flow1 resrouces to, will create if it does not exist
+$resourceGroupName = "adfflow1"             #Name of Azure resource group to deploy the flow1 resrouces to, will create if it does not exist
 $location = "East US 2"                     #Geo location of resource group, resources will use this as well
 $flow1NamePrefix = "adfflow1"               #prefix to append on to unique names such as SQLServer and Storage account
 $sqlUsername = "flow1admin"                 #SqlServer admin account
